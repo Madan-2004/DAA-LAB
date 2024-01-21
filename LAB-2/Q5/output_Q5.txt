@@ -1,0 +1,4 @@
+The first and second minimum elements by comparing is: 2 and 3.
+The time taken by comparing is: 83801 micro-seconds.
+The first and second minimum elements after sorting is: 2 and 2.
+The time taken by sorting is: 2709845 micro-seconds.

@@ -1,0 +1,2 @@
+The median is: 51
+The time taken is: 52958 micro-seconds.
