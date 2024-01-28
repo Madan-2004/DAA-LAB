@@ -1,0 +1,42 @@
+The time taken by naive method: 2 microseconds.
+The time taken by Divide And Conquer method: 252 microseconds.
+The resultant matrix through naive method is: 
+1 2 3 
+4 5 6 
+7 8 9 
+
+The resultant matrix through divide and conquer method is: 
+1 2 3 
+4 5 6 
+7 8 9 
+
+The time taken by naive method: 3 microseconds.
+The time taken by Divide And Conquer method: 167 microseconds.
+The resultant matrix through naive method is: 
+10 20 30 40 
+50 60 70 80 
+30 40 50 60 
+70 80 90 100 
+
+The resultant matrix through divide and conquer method is: 
+10 20 30 40 
+50 60 70 80 
+30 40 50 60 
+70 80 90 100 
+
+The time taken by naive method: 3 microseconds.
+The time taken by Divide And Conquer method: 1184 microseconds.
+The resultant matrix through naive method is: 
+3 2 1 4 5 
+6 7 8 9 10 
+1 2 3 4 5 
+6 7 8 9 10 
+11 12 13 14 15 
+
+The resultant matrix through divide and conquer method is: 
+3 2 1 4 5 
+6 7 8 9 10 
+1 2 3 4 5 
+6 7 8 9 10 
+11 12 13 14 15 
+

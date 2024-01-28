@@ -1,0 +1,4 @@
+The time taken by Kadane's algorithm is: 4189 micro-seconds.
+The maximum sum using Kadane's algorithm is: 11361989.
+The time taken by divide and conquer in O(n) time-complexity is: 31448 micro-seconds.
+The maximum sum using divide and conquer in O(n) time-complexity is: 11361989.
