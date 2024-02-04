@@ -133,82 +133,82 @@ Matrix divideAndConquerMatrixMultiplication(const Matrix &A,const Matrix &B)
 // Divide and Conquer with Strassen's Algorithm.
 // T(n) = 7T(n/2) + O(n^2) => O(n^2.81) better than naive but not practical.
 
-Matrix strassenMatrixMultiplication(const Matrix &A,const Matrix &B) {
-    int n1 = A.size();
-    int n2 = B.size();
+// Matrix strassenMatrixMultiplication(const Matrix &A,const Matrix &B) {
+//     int n1 = A.size();
+//     int n2 = B.size();
 
-    if (n1 != n2) {
-        cerr << "\nError: Enter valid matrices.\n";
-        return {};
-    }
+//     if (n1 != n2) {
+//         cerr << "\nError: Enter valid matrices.\n";
+//         return {};
+//     }
 
-    int n = n1;
-    Matrix C(n, vi(n,0));
+//     int n = n1;
+//     Matrix C(n, vi(n,0));
 
-    if (n == 1) {
-        C[0][0] = A[0][0] * B[0][0];
-        return C;
-    }
+//     if (n == 1) {
+//         C[0][0] = A[0][0] * B[0][0];
+//         return C;
+//     }
 
-    int v = log2(n);
-    if (pow(2,v) != n) {
-        n = pow(2,v+1);
-    }
+//     int v = log2(n);
+//     if (pow(2,v) != n) {
+//         n = pow(2,v+1);
+//     }
 
-    int si = n / 2;
+//     int si = n / 2;
 
-    Matrix a00(si, vi(si,0)), a01(si, vi(si,0)), a10(si, vi(si,0)), a11(si, vi(si,0));
-    Matrix b00(si, vi(si,0)), b01(si, vi(si,0)), b10(si, vi(si,0)), b11(si, vi(si,0));
+//     Matrix a00(si, vi(si,0)), a01(si, vi(si,0)), a10(si, vi(si,0)), a11(si, vi(si,0));
+//     Matrix b00(si, vi(si,0)), b01(si, vi(si,0)), b10(si, vi(si,0)), b11(si, vi(si,0));
 
-    rep(i, 0, si) {
-        rep(j, 0, si) {
-            a00[i][j] = A[i][j];
-            b00[i][j] = B[i][j];
-            if(j + si < n2) {
-               a01[i][j] = A[i][j + si];
-               b01[i][j] = B[i][j + si];
-            }
-            if(i + si < n2) {
-               a10[i][j] = A[si + i][j];
-               b10[i][j] = B[si + i][j];
-            }
-            if(j + si < n2 && i + si < n2) {
-               a11[i][j] = A[i + si][j + si];
-               b11[i][j] = B[i + si][j + si];
-            }
-        }
-    }
+//     rep(i, 0, si) {
+//         rep(j, 0, si) {
+//             a00[i][j] = A[i][j];
+//             b00[i][j] = B[i][j];
+//             if(j + si < n2) {
+//                a01[i][j] = A[i][j + si];
+//                b01[i][j] = B[i][j + si];
+//             }
+//             if(i + si < n2) {
+//                a10[i][j] = A[si + i][j];
+//                b10[i][j] = B[si + i][j];
+//             }
+//             if(j + si < n2 && i + si < n2) {
+//                a11[i][j] = A[i + si][j + si];
+//                b11[i][j] = B[i + si][j + si];
+//             }
+//         }
+//     }
 
-    Matrix p1 = strassenMatrixMultiplication(a00, matrixSubtraction(b01,b11));
-    Matrix p2 = strassenMatrixMultiplication(matrixAddition(a00,a01), b11);
-    Matrix p3 = strassenMatrixMultiplication(matrixAddition(a10,a11), b00);
-    Matrix p4 = strassenMatrixMultiplication(a11, matrixSubtraction(b10,b00));
-    Matrix p5 = strassenMatrixMultiplication(matrixAddition(a00,a11), matrixAddition(b00,b11));
-    Matrix p6 = strassenMatrixMultiplication(matrixSubtraction(a01,a11), matrixAddition(b10,b11));
-    Matrix p7 = strassenMatrixMultiplication(matrixSubtraction(a00,a10), matrixAddition(b00,b01));
+//     Matrix p1 = strassenMatrixMultiplication(a00, matrixSubtraction(b01,b11));
+//     Matrix p2 = strassenMatrixMultiplication(matrixAddition(a00,a01), b11);
+//     Matrix p3 = strassenMatrixMultiplication(matrixAddition(a10,a11), b00);
+//     Matrix p4 = strassenMatrixMultiplication(a11, matrixSubtraction(b10,b00));
+//     Matrix p5 = strassenMatrixMultiplication(matrixAddition(a00,a11), matrixAddition(b00,b11));
+//     Matrix p6 = strassenMatrixMultiplication(matrixSubtraction(a01,a11), matrixAddition(b10,b11));
+//     Matrix p7 = strassenMatrixMultiplication(matrixSubtraction(a00,a10), matrixAddition(b00,b01));
 
-    Matrix c_00 = matrixSubtraction(matrixAddition(matrixAddition(p5,p4),p6),p6);
-    Matrix c_01 = matrixAddition(p1,p2);
-    Matrix c_10 = matrixAddition(p3,p4);
-    Matrix c_11 = matrixSubtraction(matrixAddition(p1,p5),matrixAddition(p3,p7));
+//     Matrix c_00 = matrixSubtraction(matrixAddition(matrixAddition(p5,p4),p6),p6);
+//     Matrix c_01 = matrixAddition(p1,p2);
+//     Matrix c_10 = matrixAddition(p3,p4);
+//     Matrix c_11 = matrixSubtraction(matrixAddition(p1,p5),matrixAddition(p3,p7));
 
-    rep(i, 0, si) {
-        rep(j, 0, si) {
-            C[i][j] = c_00[i][j];
-            if(j + si < n2) {
-               C[i][j + si] = c_01[i][j];
-            }
-            if(i + si < n2) {
-               C[si + i][j] = c_10[i][j];
-            }
-            if(j + si < n2 && i + si < n2) {
-               C[i + si][j + si] = c_11[i][j];
-            }
-        }
-    }
+//     rep(i, 0, si) {
+//         rep(j, 0, si) {
+//             C[i][j] = c_00[i][j];
+//             if(j + si < n2) {
+//                C[i][j + si] = c_01[i][j];
+//             }
+//             if(i + si < n2) {
+//                C[si + i][j] = c_10[i][j];
+//             }
+//             if(j + si < n2 && i + si < n2) {
+//                C[i + si][j + si] = c_11[i][j];
+//             }
+//         }
+//     }
 
-    return C;
-}
+//     return C;
+// }
 
 int main(){
 

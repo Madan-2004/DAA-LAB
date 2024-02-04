@@ -1,0 +1,20 @@
+The 25986th largest element is: 13483.
+The time taken by this function is: 556 microseconds.
+The 39653th largest element is: 20801.
+The time taken by this function is: 539 microseconds.
+The 18754th largest element is: 53102.
+The time taken by this function is: 1081 microseconds.
+The 3043th largest element is: 90131.
+The time taken by this function is: 435 microseconds.
+The 31965th largest element is: 36230.
+The time taken by this function is: 1710 microseconds.
+The 7800th largest element is: 22424.
+The time taken by this function is: 125 microseconds.
+The 17th largest element is: 99942.
+The time taken by this function is: 320 microseconds.
+The 7647th largest element is: 61735.
+The time taken by this function is: 406 microseconds.
+The 1195th largest element is: 87808.
+The time taken by this function is: 75 microseconds.
+The 21376th largest element is: 28697.
+The time taken by this function is: 637 microseconds.

@@ -1,0 +1,20 @@
+The median of the two arrays is: 50153.
+The time taken by two pointers approach is: 518 microseconds.
+The median of the two arrays is: 50028.5.
+The time taken by two pointers approach is: 1153 microseconds.
+The median of the two arrays is: 49954.
+The time taken by two pointers approach is: 805 microseconds.
+The median of the two arrays is: 49969.
+The time taken by two pointers approach is: 709 microseconds.
+The median of the two arrays is: 49892.5.
+The time taken by two pointers approach is: 444 microseconds.
+The median of the two arrays is: 50007.
+The time taken by two pointers approach is: 307 microseconds.
+The median of the two arrays is: 49929.
+The time taken by two pointers approach is: 257 microseconds.
+The median of the two arrays is: 49939.5.
+The time taken by two pointers approach is: 738 microseconds.
+The median of the two arrays is: 50300.
+The time taken by two pointers approach is: 293 microseconds.
+The median of the two arrays is: 50119.
+The time taken by two pointers approach is: 666 microseconds.
