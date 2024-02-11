@@ -1,0 +1,2 @@
+The given graph cannot be divided into two cliques.
+The time taken by this function is: 12394 microseconds.

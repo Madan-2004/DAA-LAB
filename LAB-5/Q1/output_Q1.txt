@@ -1,0 +1,2 @@
+The size of the largest region is: 20578.
+The time taken by this function is: 4079 microseconds.

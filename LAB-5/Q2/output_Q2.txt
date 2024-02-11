@@ -1,0 +1,6 @@
+The minimum number of moves are: 2.
+The time taken by this function is: 20 microseconds.
+The minimum number of moves are: 2.
+The time taken by this function is: 12 microseconds.
+The minimum number of moves are: 4.
+The time taken by this function is: 20 microseconds.
