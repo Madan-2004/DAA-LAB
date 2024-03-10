@@ -42,8 +42,8 @@ bool isBipartite(vector <vector<li>>& arr, li n){
 bool twoCliques(vector <vector<li>>& graph, li n){
     vector <vector<li>> reverse(n, vector<li>(n,0));
     for(int i=0; i<n; i++){
-        for(int j=0; j<n; j++){
-            reverse[i][j] = graph[j][i]; // Reversing the edge direction
+        for(int j=0; j<n && i != j; j++){
+            reverse[i][j] = 1-graph[i][j]; // Reversing the edge direction
         }
     }
     return isBipartite(reverse, n);

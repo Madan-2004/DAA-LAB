@@ -4,7 +4,7 @@ using namespace std::chrono;
 
 // 0/1 KnapSack Problem.
 
-int knapSack1(int W, int wt[], int val[], int n){        // Recursive approach, we have exponential time complexxity. 
+int knapSack1(int W, int wt[], int val[], int n){        // Recursive approach, we have exponential time complexity. 
     // O(n) stack space is required for recursion.
     // Base Case 
     if (n == 0 || W == 0) 

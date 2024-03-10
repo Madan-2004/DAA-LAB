@@ -1,0 +1,10 @@
+11
+The time taken by the Longest Path Algorithm is: 10820 microseconds.
+11
+The time taken by the Longest Path Algorithm is: 14205 microseconds.
+10
+The time taken by the Longest Path Algorithm is: 11459 microseconds.
+10
+The time taken by the Longest Path Algorithm is: 21465 microseconds.
+9
+The time taken by the Longest Path Algorithm is: 11516 microseconds.

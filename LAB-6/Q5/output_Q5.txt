@@ -1,0 +1,20 @@
+Bridge: YES!
+The time taken for Bridge detection is: 370 microseconds.
+Articulation point: YES!
+The time taken for Articulation point detection is: 265 microseconds.
+Bridge: YES!
+The time taken for Bridge detection is: 213 microseconds.
+Articulation point: YES!
+The time taken for Articulation point detection is: 142 microseconds.
+Bridge: YES!
+The time taken for Bridge detection is: 310 microseconds.
+Articulation point: YES!
+The time taken for Articulation point detection is: 124 microseconds.
+Bridge: YES!
+The time taken for Bridge detection is: 200 microseconds.
+Articulation point: YES!
+The time taken for Articulation point detection is: 107 microseconds.
+Bridge: YES!
+The time taken for Bridge detection is: 400 microseconds.
+Articulation point: YES!
+The time taken for Articulation point detection is: 193 microseconds.

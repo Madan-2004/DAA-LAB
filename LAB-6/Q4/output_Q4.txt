@@ -1,0 +1,15 @@
+Loop exists.
+The time taken by Topo-Sort method is: 4094 microseconds.
+The time taken by DFS method is: 4940 microseconds.
+Loop exists.
+The time taken by Topo-Sort method is: 3775 microseconds.
+The time taken by DFS method is: 3711 microseconds.
+Loop exists.
+The time taken by Topo-Sort method is: 3790 microseconds.
+The time taken by DFS method is: 3887 microseconds.
+Loop does not exist.
+The time taken by Topo-Sort method is: 5077 microseconds.
+The time taken by DFS method is: 5040 microseconds.
+Loop exists.
+The time taken by Topo-Sort method is: 3763 microseconds.
+The time taken by DFS method is: 3978 microseconds.
