@@ -1,0 +1,40 @@
+Greedy approach: 34332660
+The time taken by greedy approach is: 727 microseconds.
+Optimal approach: 34332660
+The time taken by optimal approach is: 172755 microseconds.
+Greedy approach: 26624313
+The time taken by greedy approach is: 728 microseconds.
+Optimal approach: 26690182
+The time taken by optimal approach is: 74733 microseconds.
+Greedy approach: 24431305
+The time taken by greedy approach is: 315 microseconds.
+Optimal approach: 24454698
+The time taken by optimal approach is: 68182 microseconds.
+Greedy approach: 25421034
+The time taken by greedy approach is: 655 microseconds.
+Optimal approach: 25421034
+The time taken by optimal approach is: 81687 microseconds.
+Greedy approach: 32644475
+The time taken by greedy approach is: 392 microseconds.
+Optimal approach: 32745243
+The time taken by optimal approach is: 107575 microseconds.
+Greedy approach: 18906783
+The time taken by greedy approach is: 632 microseconds.
+Optimal approach: 18906783
+The time taken by optimal approach is: 49475 microseconds.
+Greedy approach: 5377238
+The time taken by greedy approach is: 236 microseconds.
+Optimal approach: 5379310
+The time taken by optimal approach is: 2925 microseconds.
+Greedy approach: 35715570
+The time taken by greedy approach is: 708 microseconds.
+Optimal approach: 35715570
+The time taken by optimal approach is: 143282 microseconds.
+Greedy approach: 2635871
+The time taken by greedy approach is: 6 microseconds.
+Optimal approach: 2635871
+The time taken by optimal approach is: 1150 microseconds.
+Greedy approach: 12963628
+The time taken by greedy approach is: 362 microseconds.
+Optimal approach: 12963628
+The time taken by optimal approach is: 15586 microseconds.

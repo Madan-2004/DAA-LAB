@@ -6,7 +6,7 @@ typedef long long int li;
 li n,m;
 
 bool check(vector <vector<li>>& graph, vector <vector<bool>>& visited, li x, li y){
-    if(x >= n || y >= m || x < 0 || y<0) return false;
+    if(x >= n || y >= m || x < 0 || y < 0) return false;
     if(visited[x][y]) return false;
     return true;
 }

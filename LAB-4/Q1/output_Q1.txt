@@ -1,20 +1,20 @@
 The total number of inversions in the given array is: 20481805.
-The time taken by this function is: 365 microseconds.
+The time taken by this function is: 332 microseconds.
 The total number of inversions in the given array is: 72895612.
-The time taken by this function is: 688 microseconds.
+The time taken by this function is: 728 microseconds.
 The total number of inversions in the given array is: 435722937.
-The time taken by this function is: 1935 microseconds.
+The time taken by this function is: 1412 microseconds.
 The total number of inversions in the given array is: 722346923.
-The time taken by this function is: 2350 microseconds.
+The time taken by this function is: 2315 microseconds.
 The total number of inversions in the given array is: 222111671.
-The time taken by this function is: 1397 microseconds.
+The time taken by this function is: 1390 microseconds.
 The total number of inversions in the given array is: 649354555.
-The time taken by this function is: 1795 microseconds.
+The time taken by this function is: 1798 microseconds.
 The total number of inversions in the given array is: 817944138.
-The time taken by this function is: 1857 microseconds.
+The time taken by this function is: 1942 microseconds.
 The total number of inversions in the given array is: 403209966.
-The time taken by this function is: 2352 microseconds.
+The time taken by this function is: 1728 microseconds.
 The total number of inversions in the given array is: 283236290.
-The time taken by this function is: 1482 microseconds.
+The time taken by this function is: 1018 microseconds.
 The total number of inversions in the given array is: 774084866.
-The time taken by this function is: 2477 microseconds.
+The time taken by this function is: 2548 microseconds.

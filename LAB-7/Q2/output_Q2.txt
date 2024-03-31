@@ -1,0 +1,40 @@
+The maximum profit in greedy approach is: 467503429.
+The time taken by greedy approach is: 15997 microseconds.
+The maximum profit in optimal approach by disjoint set data structure is: 467503429.
+The time taken by optimal approach is: 15607 microseconds.
+The maximum profit in greedy approach is: 1268519183.
+The time taken by greedy approach is: 36661 microseconds.
+The maximum profit in optimal approach by disjoint set data structure is: 1268519183.
+The time taken by optimal approach is: 36834 microseconds.
+The maximum profit in greedy approach is: -94313482.
+The time taken by greedy approach is: 2430 microseconds.
+The maximum profit in optimal approach by disjoint set data structure is: -94313482.
+The time taken by optimal approach is: 3851 microseconds.
+The maximum profit in greedy approach is: -1712613883.
+The time taken by greedy approach is: 27251 microseconds.
+The maximum profit in optimal approach by disjoint set data structure is: -1712613883.
+The time taken by optimal approach is: 31333 microseconds.
+The maximum profit in greedy approach is: 164575867.
+The time taken by greedy approach is: 192 microseconds.
+The maximum profit in optimal approach by disjoint set data structure is: 164575867.
+The time taken by optimal approach is: 1992 microseconds.
+The maximum profit in greedy approach is: -2126481762.
+The time taken by greedy approach is: 37503 microseconds.
+The maximum profit in optimal approach by disjoint set data structure is: -2126481762.
+The time taken by optimal approach is: 46731 microseconds.
+The maximum profit in greedy approach is: 320759829.
+The time taken by greedy approach is: 23712 microseconds.
+The maximum profit in optimal approach by disjoint set data structure is: 320759829.
+The time taken by optimal approach is: 32708 microseconds.
+The maximum profit in greedy approach is: 1970672395.
+The time taken by greedy approach is: 40698 microseconds.
+The maximum profit in optimal approach by disjoint set data structure is: 1970672395.
+The time taken by optimal approach is: 41049 microseconds.
+The maximum profit in greedy approach is: -1408768013.
+The time taken by greedy approach is: 27503 microseconds.
+The maximum profit in optimal approach by disjoint set data structure is: -1408768013.
+The time taken by optimal approach is: 34418 microseconds.
+The maximum profit in greedy approach is: -268413957.
+The time taken by greedy approach is: 11301 microseconds.
+The maximum profit in optimal approach by disjoint set data structure is: -268413957.
+The time taken by optimal approach is: 10129 microseconds.
