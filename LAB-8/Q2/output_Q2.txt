@@ -1,0 +1,2 @@
+The length of the path is: 6
+The time taken is: 300 nanoseconds.
